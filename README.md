@@ -74,36 +74,6 @@ The V15 baseline helper is available at:
 src/train_v15_baselines.py
 ```
 
-## Data And Artifact Policy
-
-Do not commit:
-
-- raw Kaggle data
-- processed parquet feature matrices
-- full OOF prediction parquet files
-- model checkpoints or serialized models
-- SHAP arrays and model binaries
-- submission files
-- local databases and optimization studies
-- thesis LaTeX sources or `Final Thesis.pdf`
-- audit outputs
-
-Local-only generated folders include:
-
-```text
-data/raw/
-data/processed/
-processed_train_test/
-output/
-outputs/
-artifacts/
-audit/
-latex/
-evaluation/
-```
-
-Allowed lightweight GitHub-facing outputs are kept under `reports/results/` and `reports/figures/`.
-
 ## Final Results
 
 The final SE-HC / `SIGMA_FINAL` OOF ROC-AUC is:
