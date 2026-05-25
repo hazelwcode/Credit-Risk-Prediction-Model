@@ -85,31 +85,6 @@ installments_payments.csv
 POS_CASH_balance.csv
 credit_card_balance.csv
 ```
-
-Large generated artifacts are also not included in GitHub. These include processed parquet matrices, OOF predictions, SHAP arrays, model binaries, and intermediate feature tables.
-
-Local-only folders and files include:
-
-```text
-data/raw/
-data/processed/
-data/sample/
-processed_train_test/
-output/
-outputs/
-evaluation/
-artifacts/
-audit/
-latex/
-Final Thesis.pdf
-*.parquet
-*.npy
-*.npz
-*.pkl
-*.joblib
-*.db
-```
-
 ---
 
 ## Folder Structure
