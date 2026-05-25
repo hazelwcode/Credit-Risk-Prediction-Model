@@ -103,7 +103,7 @@ credit_risk_prediction/
 │   ├── 04_build_se_hc.ipynb
 │   ├── 05_evaluation_and_shap.ipynb
 │   └── archive/
-│       └── solution_ver02.ipynb
+│       └── solution_full.ipynb
 │
 ├── feature_engineering/
 │   ├── feature - bureau & bureau balance.py
